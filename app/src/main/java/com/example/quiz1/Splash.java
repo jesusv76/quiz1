@@ -35,15 +35,6 @@ public class Splash extends AppCompatActivity {
                 if (Nombre.equalsIgnoreCase("0")||Edad.equalsIgnoreCase("0")){
                     Intent i = new Intent(Splash.this,MainActivity.class);
                     startActivity(i);
-                }else if(){
-                    Intent i = new Intent(Splash.this,Deporte.class);
-                    startActivity(i);
-                }else if(){
-                    Intent i = new Intent(Splash.this,Musica.class);
-                    startActivity(i);
-                }else if(){
-                    Intent i = new Intent(Splash.this,Cine.class);
-                    startActivity(i);
                 }
 
 
